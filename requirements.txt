@@ -13,5 +13,5 @@ threadpoolctl==2.1.0
 Werkzeug==1.0.1
 wincertstore==0.2
 mkl.fft==1.0.6
-mkl-random==1.1.1
+mkl-random==1.0.1.1
 mkl-service==2.3.0
