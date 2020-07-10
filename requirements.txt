@@ -3,12 +3,15 @@ click==7.1.2
 Flask==1.1.2
 itsdangerous==1.1.0
 Jinja2==2.11.2
-joblib==0.16.0
+joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
 MarkupSafe==1.1.1
+git+https://github.com/IntelPython/mkl_fft.git#egg=mkl_fft
+mkl-random==1.1.1
+mkl-service==2.3.0
 numpy==1.18.5
-scikit-learn==0.23.1
-scipy==1.5.1
+scikit-learn @ file:///C:/ci/scikit-learn_1592853510272/work
+scipy @ file:///C:/ci/scipy_1592916963468/work
 six==1.15.0
-threadpoolctl==2.1.0
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
 Werkzeug==1.0.1
 wincertstore==0.2
