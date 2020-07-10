@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1> House Price predict</h1>
+	<form method="POST" action="{{url_for('predict')}}">
+		<input type="text" name="area" placeholder="area">
+		<input type="text" name="room" placeholder="room">
+		<input type="text" name="age" placeholder="age">
+		<input type="submit" name="submit" value="predict">
+	</form>
+
+	{{prediction_text}}
+</body>
+</html>
